@@ -16,10 +16,11 @@ public class Main {
         if (loginSuccess) {
             boolean result = email.send("Salam", "Content of email placed here!!");
 
-            if (result)
+            if (result) {
                 System.out.println("**************************************************\n*OK*  " +
                         user.getInormation() +
                         "\n**************************************************");
+            }
         }
 
     }
