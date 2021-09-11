@@ -24,16 +24,6 @@ public class User {
         return this.toString();
     }
 
-    public boolean sendEmail(String subject, String content) {
-        System.out.println("\n########################################");
-        System.out.println("Email has been sent successfully!\nto: " + this.email +
-                "\nsubject: " + subject +
-                "\ncontent: " + content);
-        System.out.println("########################################\n");
-
-        return true;
-    }
-
     @Override
     public String toString() {
         return "User -> {" +
