@@ -1,4 +1,4 @@
-# GitLearning: README.MD markdown
+# Git Learning Test: README.MD markdown
 *this is a test repository for learn and practicing Git* 
 
 *italic*
