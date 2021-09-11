@@ -11,7 +11,9 @@ public class Main {
 
         boolean result = user.sendEmail("Salam", "Content of email placed here!!");
         if (result)
-            System.out.println("OK");
+            System.out.println("**************************************************\n*OK*  " +
+                    user.getInormation() +
+                    "\n**************************************************");
     }
 
 }
