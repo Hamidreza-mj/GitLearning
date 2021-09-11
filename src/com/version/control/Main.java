@@ -9,7 +9,7 @@ public class Main {
         user.setName("ali");
         user.setEmail("info@email.com");
 
-        boolean result = user.sendEmail("hello", "this is content of email");
+        boolean result = user.sendEmail("Salam", "Content of email placed here!!");
         if (result)
             System.out.println("OK");
     }
